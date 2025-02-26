@@ -24,6 +24,8 @@ body {
 
 .wrapper {
     padding: 20px;
+    margin: 80px;
+    
 }
 
 .section {
@@ -65,7 +67,6 @@ body {
     background-color: #333;
     border-radius: 3px;
     margin: 5px 0;
-    position: relative;
 }
 
 .progress {
@@ -79,11 +80,19 @@ body {
     right: 15px;
     font-weight: bold;
 }
-footer{ 
+
+footer { 
     background-color: #1DB954; padding: 10px; text-align: center; margin-top: 20px;
     font-size: small;
-    text-align: center;
-    position: relative;
+    color: white; 
+  padding: 10px;
+ position: relative; 
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center; 
+ justify-content: center; 
+
     
 }
 
